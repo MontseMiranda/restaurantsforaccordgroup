@@ -1,0 +1,103 @@
+---
+title: "ACCORD GROUP - BARCELONA ESMO CONGRESS"
+author: "YOUR EVENT"
+date: 'SEPTEMBER 26TH TO OCTOBER 1ST 2019'
+output:
+ 
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+
+```{r libraries}
+library(readxl)
+library(dplyr)
+library(knitr)
+library(timevis)
+
+```
+
+
+## **SUGGESTED RESTAURANTS** {.tabset .tabset-fade .tabset-pills}
+
+We have offered the following restaurants according to the group budget and also the hotel location. All restaurants are located walking distance from Hotel Catalonia Portal del Angel 
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CRWfos2r2Ez4cV-rkMYpOBU3U22ESk0A" width="640" height="480"></iframe>
+
+
+### **RACO DE NURIA**
+
+
+<iframe src="RacodeNuria.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+
+### **AGUELO013**
+
+<iframe src="Aguelo013/Aguelo013.html"  frameborder="0" width="100%" height="1000" scrolling="no"></iframe>
+
+### **ARROS I PEIX**
+
+<iframe src="Arros i Peix/ArrosiPeix.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+
+### **CASA LOLA** 
+
+<iframe src="Casa Lola /CasaLola.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+ 
+
+### **CASA CARMEN** 
+
+<iframe src="Casa Carmen/CasaCarmen.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+
+### **JULIVERT MEU** 
+
+<iframe src="Julivert Meu/Julivert.html"  frameborder="0" width="100%" height="1600" scrolling="no"></iframe>
+
+
+
+
+*****
+
+## Budget
+
+<iframe src="https://accordgrouprestaurantsbudget.netlify.com/" width="100%" height="1000"></iframe>
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net rates for Your Events Romania
+  
+  * For a group of minimum 20 pax.
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
